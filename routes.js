@@ -16,7 +16,6 @@ router.get('/project/:id', (req, res) => {
     // check if there is a valid id, otherwise re-direct to set a random one
     if (isNaN(id) || id < 0 || id > projects.length - 1) return res.redirect('/project');
 
-
     const project = projects[parseInt(id)];
     res.render('project', {project});
 });
