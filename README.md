@@ -69,6 +69,3 @@ Create a Portfolio to showcase recent projects
     * Changes added within CSS file
     * Style changes added here (above)
     * Maintain layout/position of important page elements
-
-        *
-        *
