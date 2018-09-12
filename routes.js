@@ -11,7 +11,6 @@ router.get('/', (req, res) => res.render('index', {projects}));
 router.get('/project', (req, res) =>  res.redirect(`/project/${Math.floor(Math.random() * projects.length)}`));
 router.get('/project/:id', (req, res) => {
     const {id} = req.params;
-    console.log(typeof id);
 
     // check if there is a valid id, otherwise re-direct to set a random one
     if (isNaN(id) || id < 0 || id > projects.length - 1) return res.redirect('/project');
