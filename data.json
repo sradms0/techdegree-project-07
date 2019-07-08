@@ -34,8 +34,8 @@
             "project_name": "Interactive Form",
             "description": "An engaging and interactive form with validation.",
             "technologies": ["HTML", "CSS", "JavaScript"],
-            "live_link": "https://sradms0.github.io/techdegree-project-03/",
-            "github_link": "https://github.com/sradms0/techdegree-project-03",
+            "live_link": "https://sradms0.github.io/interactive-form/",
+            "github_link": "https://github.com/sradms0/interactive-form",
             "image_urls": [
                 "/static/img/p03/p03_01.png",
                 "/static/img/p03/p03_02.png",
